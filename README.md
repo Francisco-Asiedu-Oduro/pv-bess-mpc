@@ -20,7 +20,7 @@ The project combines two datasets collected from La Trobe University campuses.
 
 ### UNICON
 
-UNICON provides electricity, gas, water, building, campus, and weather information.
+UNICON provides electricity, gas, water, building, campus, and weather information across La Trobe University campuses.
 
 The project uses the electricity NMI data to construct campus-level grid demand.
 
