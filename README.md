@@ -250,7 +250,7 @@ The main limitations of the study are:
 
 ## Tools
 
-Python, Pandas, NumPy, Matplotlib, Seaborn, CVXPY, CLARABEL, Jupyter
+Python, Pandas, NumPy, Matplotlib, Seaborn, CVXPY, CLARABEL
 
 ## References
 
