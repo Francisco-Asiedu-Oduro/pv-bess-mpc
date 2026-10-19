@@ -237,16 +237,11 @@ The sensitivity analysis evaluates error levels of 5%, 10%, and 20% in addition 
 
 ## Limitations
 
-The main limitations of the study are:
-
-- The primary annual MPC benchmark assumes perfect knowledge of future load and PV generation.
-- Synthetic forecast errors are used to study uncertainty rather than forecasts from a dedicated forecasting model.
-- The AR(1) correlation parameter is a scenario assumption rather than an empirically estimated parameter.
-- The 1 MW / 2 MWh battery is a representative configuration rather than the result of a full techno-economic optimization.
-- Electricity tariffs and demand-charge structures are not explicitly optimized.
-- Battery degradation is not explicitly modelled.
-- Grid export is not considered in the MPC formulation.
-- Network-level constraints such as voltage and feeder loading are not included.
+- The interpretation of NMI demand as net of behind-the-meter PV is a modeling assumption rather than an explicit statement in the datasets.
+- PV reconstruction assumes historical site-generation shares remain sufficiently representative when a limited share of sites is missing.
+- The 1 MW / 2 MWh BESS is a representative technical configuration, not an economic optimum.
+- The controller does not model tariffs, battery degradation cost, export revenue, reactive power, or network constraints.
+- The perfect-forecast case is a benchmark; the synthetic-error experiments are controlled sensitivity tests rather than measured operational forecasts.
 
 ## Tools
 
